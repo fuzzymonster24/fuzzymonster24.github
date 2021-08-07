@@ -14,6 +14,7 @@ body {
     margin: 0;
     /* this font size will effect all elements (other than h1 -> h6) on the page */
     font-size: 10px;
+   font-family: Helvetica;
 }
 
 /* ========
