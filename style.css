@@ -13,8 +13,10 @@ colors:
 body {
     margin: 0;
     /* this font size will effect all elements (other than h1 -> h6) on the page */
-    font-size: 10px;
    font-family: Helvetica;
+    font-size: 20px;
+    line-height: 1.5;
+    color: #1D3C41;
 }
 
 /* ========
@@ -27,10 +29,11 @@ h1 {
 
 h2 {
     font-size: 36px;
+    text-align: center;
 }
 
 h3 {
-    font-size: 18px;
+    font-size: 22px;
 }
 
 /* ========
@@ -39,29 +42,83 @@ Layout
 
 header {
     background-color: #E6EBE0;
-    color: #588C94;
-    padding: 100px 100px,10px,25px;
-    text-align: center;
+    padding: 100px 100px 5px 30px;
+    color: #1D3C41;
 }
 
 .intro {
     width: 500px;
-    margin: 100px auto;
+    margin: 50px auto;
     text-align: center;
-   color: #588C94;
+   color: #1D3C41;
 }
+
+
+.articles {background-color: #1D3C41;
+    color: #fff;}
+
 
 .my-skills {
     background-color: #1D3C41;
     color: #fff;
-    padding: 75px 0;
+   padding: 2.5%;
     text-align: center;
+    margin-bottom: 75px;
 }
 
 .columns {
-    display: flex;
+    display:flex;
+    font-size: 18px;
 }
 
 .column {
-    margin: 0 10px;
+    margin: 5%;
+    width: 50%;
+}
+
+img {max-width: 50%;
+padding-left: 2.5%}
+
+.blurb {padding-right: 2.5%}
+
+
+.outro {
+    display: flex;
+    color: #1D3C41;
+    text-align: center;
+    margin: 5%;
+}
+
+
+
+.article_title {background-color: #E6EBE0;
+    color: #1D3C41;
+        padding: 100px 100px 5px 30px;
+    
+}
+
+
+.article_intro {
+    margin: 0px 30px
+}
+
+
+.main_text {
+    margin: 10px 15%;
+    text-align:justify
+}
+
+
+
+.homepage_link {
+    background-color: #1D3C41;
+    color: #fff;
+   padding: 2.5%;
+    text-align: center;
+    margin-top: 5%;
+    
+}
+
+a {
+    color: #fff;
 }
